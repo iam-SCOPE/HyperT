@@ -38,3 +38,12 @@
     align-items: center;
     margin-left: 15px;
 }
+
+/*====================================*/
+
+@media (min-width: 1000px)
+{
+    .header-container{
+        padding: 0 10%;
+    }
+}

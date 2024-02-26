@@ -70,3 +70,28 @@
     height: 30px;
     margin-bottom: 20px;
 }
+
+/*===========================================================*/
+
+@media (min-width: 1000px)
+{
+    .product-varieties{
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .product-detail-images{
+        min-width: 390px;
+        height: 400px;
+    }
+
+    .product-details-container{
+        width: 80%;
+        align-self: center;
+    }
+
+    .product-info-description{
+        width: 700px;
+    }
+}

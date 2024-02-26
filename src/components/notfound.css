@@ -4,12 +4,15 @@
 }
 
 .not-found-container{
+    width: 100%;
     margin-top: 50px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .not-found-image{
@@ -20,4 +23,13 @@
 
 .not-found-link{
     text-decoration: none;
+}
+
+/*=============================================*/
+
+@media (min-width: 1000px)
+{
+    .not-found-image{
+        width: 900px;
+    }
 }

@@ -22,7 +22,7 @@ export default function Productdetails()
                     <h3 className='product-info-title'>{products[productId].title}</h3>
                     <h3 className='product-info-price'>{'$' + products[productId].price}</h3>
                     <h3 className='product-info-prod-desc'>Product Description</h3>
-                    <p>{products[productId].description}</p>
+                    <p className='product-info-description'>{products[productId].description}</p>
                 </div>
                 <div className='d-and-r'>
                     <p>Delivery and Returns Info</p>

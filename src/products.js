@@ -29,7 +29,7 @@ const products = [
         picture2 : 'https://n2.sdlcdn.com/imgs/k/q/p/Ardeur-Black-Cotton-Blend-Men-SDL564306527-2-2c96d.JPG',
         picture3 : 'https://n4.sdlcdn.com/imgs/k/q/p/Ardeur-Black-Cotton-Blend-Men-SDL564306527-3-83552.JPG',
         picture4 : 'https://n3.sdlcdn.com/imgs/k/q/p/Ardeur-Black-Cotton-Blend-Men-SDL564306527-4-4a5cf.JPG',
-        description : 'Ardeur Stylish Mens Cotton Shorts',
+        description : 'Ardeur Stylish Mens Cotton Shorts. are designed to facilitate the most freedom of movement during exercise. Most running shorts include an inner lining that doubles as underwear. Most are made with polyester.',
     },
 
     {
@@ -40,7 +40,7 @@ const products = [
         picture2 : "https://n2.sdlcdn.com/imgs/k/n/z/Scrott-Fitness-Multicolor-Cotton-Blend-SDL229708576-2-4c4e6.jpg",
         picture3 : "https://n1.sdlcdn.com/imgs/k/n/z/Scrott-Fitness-Multicolor-Cotton-Blend-SDL229708576-3-2d851.jpg",
         picture4 : "https://n1.sdlcdn.com/imgs/k/n/z/Scrott-Fitness-Multicolor-Cotton-Blend-SDL229708576-4-c1f05.jpg",
-        description : "Intended to be fitted. Cool-touch hand-feel. Tapered fit. Durable and soft",
+        description : "Intended to be fitted. Cool-touch hand-feel. Tapered fit. Durable and soft. are designed to facilitate the most freedom of movement during exercise. Most running shorts include an inner lining that doubles as underwear. Most are made with polyester.",
     },
 
     {

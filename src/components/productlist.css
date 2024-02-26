@@ -57,3 +57,12 @@
     color: black;
     border-radius: 5px;
 }
+
+/*===============================================*/
+
+@media (min-width: 600px)
+{
+    .product-container{
+        width: 95%;
+    }
+}
