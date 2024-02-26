@@ -1,0 +1,23 @@
+.not-found{
+    width: 100%;
+    height: 100vh;
+}
+
+.not-found-container{
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.not-found-image{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.not-found-link{
+    text-decoration: none;
+}
