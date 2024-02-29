@@ -4,12 +4,12 @@ import Header from './Header.js'
 import Ads from './Ads.js'
 import ProductList from './ProductList.js'
 
-
 export default function HomePage()
 {
+    
     const goods = products.map((product) => {
         return(
-            <ProductList picture={product.picture1} title={product.title} id={product.id} price={product.price}/>
+            <ProductList product={product}/>
         )
     })
 
