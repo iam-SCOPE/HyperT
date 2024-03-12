@@ -107,7 +107,30 @@ const products = [
         picture3 : "https://n2.sdlcdn.com/imgs/j/v/y/Mercury-MC-801-4-Inch-SDL473331204-3-54c2a.jpg",
         picture4 : "https://n1.sdlcdn.com/imgs/j/v/y/Mercury-MC-801-4-Inch-SDL473331204-4-1dab1.jpg",
         description : "2-position Auxiliary Handle, Power Supply 230 -240 V 50 Hz, Powerful Motor 750 W for Added Robustness, Burst Proof Guard for Maximum User Protection, Good Handling Due to Compact Housing, Air Inlets for Optimal Air Flow and Cooling, Ergonomic Auxiliary Handle Mountable on the Right or Left of the Tool",
+    },
+
+    {
+    id : 11,
+    title : "Shoetopia White Women's Loafers",
+    price : "44.99",
+    picture1 : "https://n3.sdlcdn.com/imgs/k/s/u/Shoetopia-White-Women-s-Loafers-SDL187614577-1-de914.jpg",
+    picture2 : "https://n2.sdlcdn.com/imgs/k/s/u/Shoetopia-White-Women-s-Loafers-SDL187614577-2-165da.jpg",
+    picture3 : "https://n4.sdlcdn.com/imgs/k/s/u/Shoetopia-White-Women-s-Loafers-SDL187614577-3-6baad.jpg",
+    picture4 : "https://n1.sdlcdn.com/imgs/k/s/u/Shoetopia-White-Women-s-Loafers-SDL187614577-4-a188f.jpg",
+    description : "If simplicity is your style mantra, then this pair of loafers from Shoetopia will be an ideal choice for you, while the round toe and back open enhances its design. In addition, it features a slip on style, which makes it convenient to wear",
+    },
+
+    {
+        id : 12,
+        title : "Shoetopia - Pink Women's Sneakers",
+        price : "99.99",
+        picture1 : "https://n2.sdlcdn.com/imgs/k/o/9/Shoetopia-Pink-Women-s-Sneakers-SDL804143916-1-165da.jpg",
+        picture2 : "https://n4.sdlcdn.com/imgs/k/l/z/Shoetopia-Pink-Women-s-Sneakers-SDL804143916-2-d5d85.jpg",
+        picture3 : "https://n1.sdlcdn.com/imgs/k/l/z/Shoetopia-Pink-Women-s-Sneakers-SDL804143916-3-2ade4.jpg",
+        picture4 : "https://n3.sdlcdn.com/imgs/k/l/z/Shoetopia-Pink-Women-s-Sneakers-SDL804143916-4-51df3.jpg",
+        description : "Shoetopia is the leading manufacturer of Bellies, Heels, Sports Shoes, Boots, Flip-flops, Casual Shoes, sliders, Heels, sandals and slippers etc. For Kids, men’s & women’s. Shoetopia Brand regularly adds latest designs to its footwear collection. This is another masterpiece pair of Latest Bellies from the house of Shoetopia it is extremely stylish it has bounce back sole which gives extreme comfort during walking and it is available at most economical price",
     }
+
 ]
 
 export default products;
