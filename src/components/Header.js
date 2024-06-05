@@ -5,14 +5,14 @@ import { CartContext } from './context';
 
 export default function Header()
 {
-    const [cartCount, setCartCount ] = useContext(CartContext)
+    const [cartCount] = useContext(CartContext);
 
     return (
         <header className='header-container'>
             <h1 className='website-logo'>HyperT</h1>
             <Link to='/checkout' className='cart'>
                 <div className='cart-container'>
-                    <div onChange={() => setCartCount(cartCount)} className='cart-product-count' style={{display: cartCount === 0 ? 'none' : 'flex'}}>
+                    <div className='cart-product-count' style={{display: cartCount === 0 ? 'none' : 'flex'}}>
                         {cartCount}
                     </div>
                 </div>

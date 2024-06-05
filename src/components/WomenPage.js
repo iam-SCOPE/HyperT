@@ -8,9 +8,11 @@ import ProductList from './ProductList.js';
 import ScrollToTop from './ScrollToTop.js';
 
 
-export default function HomePage()
+export default function WomenPage()
 {    
-    const all = products.map((product) => {
+    const womenProduct = products.filter((product) => product.category === 'women');
+
+    const women = womenProduct.map((product) => {
         return(
             <ProductList product={product} key={product.id}/>
         )
@@ -50,14 +52,14 @@ export default function HomePage()
 
             <div className='filter'>
                 <div className='filter-inner'>
-                    <Link to={'/'} className='filter-inner-link'><button style={{backgroundColor: 'green'}}>All</button></Link>
+                    <Link to={'/'} className='filter-inner-link'><button style={{backgroundColor: 'white'}}>All</button></Link>
                     <Link to={'/menproduct'} className='filter-inner-link'><button style={{backgroundColor: 'white'}}>Men</button></Link>
-                    <Link to={'/womenproduct'} className='filter-inner-link'><button style={{backgroundColor: 'white'}}>Women</button></Link>
+                    <Link to={'/womenproduct'} className='filter-inner-link'><button style={{backgroundColor: 'green'}}>Women</button></Link>
                 </div>
             </div>
 
             <div className='product-page'>
-                {all}
+                {women}
             </div>
 
             <Ads/>

@@ -1,9 +1,7 @@
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-family: sans-serif;
     font-weight: bold;
-    background: linear-gradient(to bottom, rgb(63, 61, 61), rgb(29, 28, 28));
+    background-color: rgb(20, 20, 20);
     background-repeat: no-repeat;
     color: white;
     overflow-x: hidden;

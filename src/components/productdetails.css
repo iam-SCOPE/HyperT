@@ -1,3 +1,5 @@
+/* Mobile first Approach */
+
 .product-details{
     width: 100%;
     display: flex;
@@ -16,6 +18,19 @@
     display: flex;
     overflow-x: scroll;
     margin-bottom: 20px;
+}
+
+/* For Microsoft Edge */
+.product-varieties::-webkit-scrollbar {
+    height: 3px;
+}
+  
+.product-varieties::-webkit-scrollbar-track {
+    background: #000000;
+}
+  
+.product-varieties::-webkit-scrollbar-thumb {
+    background: #888;
 }
 
 .product-detail-images{
@@ -76,7 +91,8 @@
 @media (min-width: 1000px)
 {
     .product-varieties{
-        width: 100%;
+        width: 800px;
+        align-self: center;
         justify-content: space-around;
         flex-wrap: wrap;
     }

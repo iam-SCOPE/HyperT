@@ -3,6 +3,7 @@ import Ads from './Ads'
 import products from '../products'
 import './productdetails.css'
 import {useParams} from 'react-router-dom'
+import ScrollToTop from './ScrollToTop'
 
 export default function Productdetails()
 {
@@ -11,6 +12,7 @@ export default function Productdetails()
     return(
         <div className="product-details">
             <Header/>
+            <ScrollToTop/>
             <div className='product-details-container'>
                 <div className='product-varieties'>
                     <img className='product-detail-images' src={products[productId].picture1} alt='images'/>

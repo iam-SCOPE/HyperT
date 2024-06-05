@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    height: 100vh;
 }
 
 .cart-header{
@@ -23,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .cart-products{
@@ -63,7 +63,7 @@
     width: 95%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .subtotal{
@@ -71,7 +71,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .checkout-btn{
@@ -82,6 +81,7 @@
     border-radius: 10px;
     font-size: 20px;
     transition: all 0.5s ease;
+    margin-top: 20px;
 }
 
 .checkout-btn:hover{
